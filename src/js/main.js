@@ -41,7 +41,7 @@ function handleNo() {
 
     // Display the 'No' result with a sad GIF
     const resultDiv = document.getElementById('result');
-    resultDiv.innerHTML = '<img src="images/sad.gif" alt=":(">';
+    resultDiv.innerHTML = '<img src="src/images/sad.gif" alt=":(">';
     resultDiv.style.display = 'block';
 }
 
@@ -51,7 +51,7 @@ function handleYes() {
     const resultDiv = document.getElementById('result');
     
     buttonsDiv.style.display = 'none';
-    resultDiv.innerHTML = '<p font-weight=400>Yay!</p><img src="images/cute.gif" alt=":)">';
+    resultDiv.innerHTML = '<p font-weight=400>Yay!</p><img src="src/images/cute.gif" alt=":)">';
     resultDiv.style.display = 'block';
 
     // Hide the h1 element
